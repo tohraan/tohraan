@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 236" width="500" height="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<style>
+  .panel { fill: none; stroke: #d0d7de; }
+  .titlebar { fill: #161b22; }
+  .prompt { fill: #ffffff; font-size: 13px; font-weight: 600; }
+  .dot { fill: #6e7681; opacity: 0.6; }
+  .key { fill: #39d353; font-size: 13px; font-weight: 600; }
+  .value { fill: #3b4048; font-size: 13px; }
+  @media (prefers-color-scheme: dark) {
+    .panel { stroke: #30363d; }
+    .value { fill: #c9d1d9; }
+  }
+  .row { opacity: 0; transform: translateX(-8px); animation: rowIn 0.38s cubic-bezier(0.25,0.6,0.3,1) both; }
+  @keyframes rowIn { 0% { opacity: 0; transform: translateX(-8px); } 100% { opacity: 1; transform: translateX(0); } }
+</style>
+<rect class="panel" x="0.5" y="0.5" width="499" height="235" rx="8" ry="8" />
+<path class="titlebar" d="M0.5 8.5 a8 8 0 0 1 8 -8 h483 a8 8 0 0 1 8 8 v25.5 h-499 z" />
+<circle class="dot" cx="18" cy="17.0" r="4.5" />
+<circle class="dot" cx="34" cy="17.0" r="4.5" />
+<circle class="dot" cx="50" cy="17.0" r="4.5" />
+<text class="prompt" x="250.0" y="21.5" text-anchor="middle">tohraan@github</text>
+<g class="row" style="animation-delay:0.000s">
+  <text class="key" x="20" y="60.0">Now</text>
+  <text class="value" x="120" y="60.0">Founder &amp; CEO @ Triaxon Automation</text>
+</g>
+<g class="row" style="animation-delay:0.100s">
+  <text class="key" x="20" y="84.0">Prev</text>
+  <text class="value" x="120" y="84.0">CRM Developer @ Weez Entertainment</text>
+</g>
+<g class="row" style="animation-delay:0.200s">
+  <text class="key" x="20" y="108.0">Stack</text>
+  <text class="value" x="120" y="108.0">Python, TS, React, Next.js, OpenAI API</text>
+</g>
+<g class="row" style="animation-delay:0.300s">
+  <text class="key" x="20" y="132.0">Highlights</text>
+</g>
+<g class="row" style="animation-delay:0.400s">
+  <text class="value" x="32" y="156.0">- Closed first paying B2B clients before age 19</text>
+</g>
+<g class="row" style="animation-delay:0.500s">
+  <text class="value" x="32" y="180.0">- 3rd place, Deriv AI Hackathon (agentic AI)</text>
+</g>
+<g class="row" style="animation-delay:0.600s">
+  <text class="value" x="32" y="204.0">- Building ONCA (AI fintech), targeting YC</text>
+</g>
+</svg>
