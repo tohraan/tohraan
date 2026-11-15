@@ -83,16 +83,6 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 
 </div>
 
-### `$ ./snake.sh`
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tohraan/tohraan/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tohraan/tohraan/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/tohraan/tohraan/output/github-snake-dark.svg" />
-</picture>
-</div>
-
 ### `$ tail -f activity.log`
 
 <!--START_SECTION:activity-->
