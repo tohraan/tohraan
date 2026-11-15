@@ -12,10 +12,10 @@
 
 <table>
 <tr>
-<td valign="top" width="58%"><img src="./assets/terminal.svg" width="100%" alt="animated terminal" /></td>
+<td valign="top" width="58%"><img src="./assets/terminal.svg" width="100%" alt="animated terminal" />
+<img src="https://streak-stats.demolab.com?user=tohraan&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0" width="100%" alt="streak" /></td>
 <td valign="top" width="42%" align="right">
 <img src="./stats-card.svg" width="100%" alt="git stats" />
-<img src="https://streak-stats.demolab.com?user=tohraan&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0" width="100%" alt="streak" />
 <img src="./langs-card.svg" width="100%" alt="top languages" />
 </td>
 </tr>
@@ -23,27 +23,15 @@
 
 <div align="center">
 
-### Hackathon wins
-
-<img src="https://img.shields.io/badge/%F0%9F%A5%87%201st-GDG%20Ideathon-ffd166?style=for-the-badge&labelColor=0d1117" alt="1st GDG Ideathon" />
-<img src="https://img.shields.io/badge/%F0%9F%A5%87%201st-ACM--W%20Broken%20Brief-ffd166?style=for-the-badge&labelColor=0d1117" alt="1st ACM-W Broken Brief" />
-<img src="https://img.shields.io/badge/%F0%9F%A5%88%202nd-IEEE%20Campus%20Ops-c0c8d4?style=for-the-badge&labelColor=0d1117" alt="2nd IEEE Campus Ops" />
-<img src="https://img.shields.io/badge/%F0%9F%A5%89%203rd-Deriv%20AI%20Hackathon-e0a96d?style=for-the-badge&labelColor=0d1117" alt="3rd Deriv AI Hackathon" />
-
-<br><br>
 <img src="./assets/marquee.svg" width="100%" alt="stack marquee" />
 
 </div>
 
-### `$ ./contributions.sh --live`
+### `$ ./contributions.sh`
 
 <div align="center">
 
-<a href="https://tohraan.github.io/#graph"><img src="./contrib-animated.svg" width="100%" alt="animated contribution graph" /></a>
-
-<sub>Click the graph to open the <b>interactive</b> version: hover any day, click it to jump to that day's commits, replay the animation.</sub>
-
-<br><br>
+<sub>Want the <b>interactive</b> one? <a href="https://tohraan.github.io/#graph">Hover any day, click it to jump to that day's commits, replay the animation →</a></sub>
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
 

@@ -4,12 +4,11 @@ import pathlib
 OUT = pathlib.Path(__file__).resolve().parent.parent
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
-lines = [("$ whoami", "#00e5a0"), ("tohraan · founder @ triaxon · cs @ bits dubai", "#cdd9e5"),
- ("$ cat wins.txt", "#00e5a0"), ("1st  GDG Ideathon", "#ffd166"), ("1st  ACM-W Broken Brief", "#ffd166"),
- ("2nd  IEEE Campus Ops", "#c0c8d4"), ("3rd  Deriv AI Hackathon (agentic AI)", "#e0a96d"),
+lines = [("$ whoami", "#00e5a0"), ("tohraan · cs @ bits pilani dubai", "#cdd9e5"),
  ("$ ls ~/shipped", "#00e5a0"), ("bits-bazaar  orbit  brand-my-mac  cse-lab  flow-tools", "#79c0ff"),
  ("$ git log --oneline -3", "#00e5a0"), ("edf01d3 feat(dijkstra): implement Dijkstra Shortest Paths", "#d2a8ff"),
- ("0304fc0 test(lru_cache): cover LRU Cache", "#d2a8ff"), ("8c114f3 docs(trie): note complexity of Trie", "#d2a8ff")]
+ ("0304fc0 test(lru_cache): cover LRU Cache", "#d2a8ff"), ("8c114f3 docs(trie): note complexity of Trie", "#d2a8ff"),
+ ("$ pytest -q", "#00e5a0"), ("all tests passed ✓", "#3fb950")]
 W, CH = 640, 8.1
 H = 76 + len(lines) * 24 + 28
 CYC = 22
