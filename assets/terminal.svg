@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="416" viewBox="0 0 640 416" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0a1620"/></linearGradient></defs>
+<rect width="640" height="416" rx="14" fill="url(#g)" stroke="#30363d"/>
+<circle cx="26" cy="24" r="6" fill="#ff5f56"/><circle cx="46" cy="24" r="6" fill="#ffbd2e"/><circle cx="66" cy="24" r="6" fill="#27c93f"/>
+<text x="320.0" y="29" fill="#7d8da1" font-size="13" text-anchor="middle">tohraan@github: ~</text>
+<line x1="0" y1="44" x2="640" y2="44" stroke="#30363d"/>
+<clipPath id="c0"><rect x="24" y="60" height="22" width="0"><animate attributeName="width" values="0;0;73;73;0" keyTimes="0;0.030;0.070;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="76" fill="#00e5a0" font-size="13.5" clip-path="url(#c0)" xml:space="preserve">$ whoami</text>
+<clipPath id="c1"><rect x="24" y="84" height="22" width="0"><animate attributeName="width" values="0;0;372;372;0" keyTimes="0;0.092;0.132;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="100" fill="#cdd9e5" font-size="13.5" clip-path="url(#c1)" xml:space="preserve">tohraan · founder @ triaxon · cs @ bits dubai</text>
+<clipPath id="c2"><rect x="24" y="108" height="22" width="0"><animate attributeName="width" values="0;0;121;121;0" keyTimes="0;0.153;0.193;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="124" fill="#00e5a0" font-size="13.5" clip-path="url(#c2)" xml:space="preserve">$ cat wins.txt</text>
+<clipPath id="c3"><rect x="24" y="132" height="22" width="0"><animate attributeName="width" values="0;0;146;146;0" keyTimes="0;0.215;0.255;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="148" fill="#ffd166" font-size="13.5" clip-path="url(#c3)" xml:space="preserve">1st  GDG Ideathon</text>
+<clipPath id="c4"><rect x="24" y="156" height="22" width="0"><animate attributeName="width" values="0;0;194;194;0" keyTimes="0;0.276;0.316;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="172" fill="#ffd166" font-size="13.5" clip-path="url(#c4)" xml:space="preserve">1st  ACM-W Broken Brief</text>
+<clipPath id="c5"><rect x="24" y="180" height="22" width="0"><animate attributeName="width" values="0;0;170;170;0" keyTimes="0;0.338;0.378;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="196" fill="#c0c8d4" font-size="13.5" clip-path="url(#c5)" xml:space="preserve">2nd  IEEE Campus Ops</text>
+<clipPath id="c6"><rect x="24" y="204" height="22" width="0"><animate attributeName="width" values="0;0;300;300;0" keyTimes="0;0.399;0.439;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="220" fill="#e0a96d" font-size="13.5" clip-path="url(#c6)" xml:space="preserve">3rd  Deriv AI Hackathon (agentic AI)</text>
+<clipPath id="c7"><rect x="24" y="228" height="22" width="0"><animate attributeName="width" values="0;0;121;121;0" keyTimes="0;0.461;0.501;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="244" fill="#00e5a0" font-size="13.5" clip-path="url(#c7)" xml:space="preserve">$ ls ~/shipped</text>
+<clipPath id="c8"><rect x="24" y="252" height="22" width="0"><animate attributeName="width" values="0;0;437;437;0" keyTimes="0;0.522;0.562;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="268" fill="#79c0ff" font-size="13.5" clip-path="url(#c8)" xml:space="preserve">bits-bazaar  orbit  brand-my-mac  cse-lab  flow-tools</text>
+<clipPath id="c9"><rect x="24" y="276" height="22" width="0"><animate attributeName="width" values="0;0;186;186;0" keyTimes="0;0.584;0.624;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="292" fill="#00e5a0" font-size="13.5" clip-path="url(#c9)" xml:space="preserve">$ git log --oneline -3</text>
+<clipPath id="c10"><rect x="24" y="300" height="22" width="0"><animate attributeName="width" values="0;0;470;470;0" keyTimes="0;0.645;0.685;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="316" fill="#d2a8ff" font-size="13.5" clip-path="url(#c10)" xml:space="preserve">edf01d3 feat(dijkstra): implement Dijkstra Shortest Paths</text>
+<clipPath id="c11"><rect x="24" y="324" height="22" width="0"><animate attributeName="width" values="0;0;332;332;0" keyTimes="0;0.707;0.747;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="340" fill="#d2a8ff" font-size="13.5" clip-path="url(#c11)" xml:space="preserve">0304fc0 test(lru_cache): cover LRU Cache</text>
+<clipPath id="c12"><rect x="24" y="348" height="22" width="0"><animate attributeName="width" values="0;0;356;356;0" keyTimes="0;0.768;0.808;0.95;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+<text x="24" y="364" fill="#d2a8ff" font-size="13.5" clip-path="url(#c12)" xml:space="preserve">8c114f3 docs(trie): note complexity of Trie</text>
+<rect x="24" y="372" width="9" height="17" fill="#00e5a0"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></svg>

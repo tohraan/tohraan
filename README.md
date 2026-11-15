@@ -1,24 +1,52 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=12,20,24&text=Tohraan%20Ahmad%20Khan&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=CS%20%C2%B7%20full-stack%20%C2%B7%20automation%20%C2%B7%20programmatic%20video&descSize=17&descAlignY=58" width="100%" alt="Tohraan Ahmad Khan" />
+<a href="https://tohraan.github.io"><img src="./assets/hero.png" width="100%" alt="Tohraan Khan - open the interactive profile" /></a>
 
-<a href="https://github.com/tohraan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1100&color=00E5A0&center=true&vCenter=true&width=640&lines=Building+full-stack+products+that+ship;Next.js+%C2%B7+Supabase+%C2%B7+TypeScript+%C2%B7+Python;Self-hosted+automation+with+n8n+%2B+Docker;Programmatic+video+with+Remotion+%2B+HyperFrames;Agent+workflows+with+Claude+Code+%2B+MCP" alt="typing intro" /></a>
-
-<br>
-
-<img src="https://img.shields.io/badge/BITS%20Pilani-Dubai-0b7285?style=for-the-badge" alt="BITS Pilani Dubai" />
-<img src="https://img.shields.io/badge/Computer%20Science-00e5a0?style=for-the-badge&labelColor=0d1117" alt="Computer Science" />
+<a href="https://tohraan.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20OPEN%20THE%20INTERACTIVE%20PROFILE-tohraan.github.io-00e5a0?style=for-the-badge&labelColor=0d1117" alt="interactive profile" /></a>
 <img src="https://img.shields.io/github/followers/tohraan?style=for-the-badge&logo=github&color=0d1117&labelColor=0d1117" alt="followers" />
 <img src="https://komarev.com/ghpvc/?username=tohraan&style=for-the-badge&color=00e5a0&label=PROFILE+VIEWS" alt="profile views" />
 
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 </div>
 
----
-
-### `$ ./contributions.sh`
+<table>
+<tr>
+<td valign="top" width="58%"><img src="./assets/terminal.svg" width="100%" alt="animated terminal" /></td>
+<td valign="top" width="42%" align="right">
+<img src="https://github-readme-stats.vercel.app/api?username=tohraan&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d1117&hide_border=true&theme=tokyonight&card_width=330" width="100%" alt="git stats" />
+<img src="https://streak-stats.demolab.com?user=tohraan&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0" width="100%" alt="streak" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tohraan&layout=compact&langs_count=7&bg_color=0d1117&hide_border=true&theme=tokyonight&card_width=330" width="100%" alt="top languages" />
+</td>
+</tr>
+</table>
 
 <div align="center">
-<img src="./contrib-heatmap.svg" width="860" alt="tohraan's GitHub contribution heatmap" />
+
+### Hackathon wins
+
+<img src="https://img.shields.io/badge/%F0%9F%A5%87%201st-GDG%20Ideathon-ffd166?style=for-the-badge&labelColor=0d1117" alt="1st GDG Ideathon" />
+<img src="https://img.shields.io/badge/%F0%9F%A5%87%201st-ACM--W%20Broken%20Brief-ffd166?style=for-the-badge&labelColor=0d1117" alt="1st ACM-W Broken Brief" />
+<img src="https://img.shields.io/badge/%F0%9F%A5%88%202nd-IEEE%20Campus%20Ops-c0c8d4?style=for-the-badge&labelColor=0d1117" alt="2nd IEEE Campus Ops" />
+<img src="https://img.shields.io/badge/%F0%9F%A5%89%203rd-Deriv%20AI%20Hackathon-e0a96d?style=for-the-badge&labelColor=0d1117" alt="3rd Deriv AI Hackathon" />
+
+<br><br>
+<img src="./assets/marquee.svg" width="100%" alt="stack marquee" />
+
+</div>
+
+### `$ ./contributions.sh --live`
+
+<div align="center">
+
+<a href="https://tohraan.github.io/#graph"><img src="./contrib-animated.svg" width="100%" alt="animated contribution graph" /></a>
+
+<sub>Click the graph to open the <b>interactive</b> version: hover any day, click it to jump to that day's commits, replay the animation.</sub>
+
+<br><br>
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
+
 </div>
 
 <details>
@@ -50,39 +78,18 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <br>
 <img src="https://skillicons.dev/icons?i=python,bash,docker,git,github,githubactions,vite,electron,figma&perline=9" alt="tooling" />
 
-<br>
-
-![n8n](https://img.shields.io/badge/n8n-self--hosted-ea4b71?style=flat-square&logo=n8n&logoColor=white)
-![Remotion](https://img.shields.io/badge/Remotion-0b84f3?style=flat-square)
-![HyperFrames](https://img.shields.io/badge/HyperFrames-111?style=flat-square)
-![ffmpeg](https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-Funnel-242424?style=flat-square&logo=tailscale&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-agents%20%2B%20MCP-d97757?style=flat-square)
-![Stripe](https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white)
-
 </div>
 
 ### `$ ls projects/`
 
 <div align="center">
 
-<a href="https://github.com/tohraan/orbit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=orbit&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="orbit" /></a>
-<a href="https://github.com/tohraan/cse-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=cse-lab&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="cse-lab" /></a>
-<a href="https://github.com/tohraan/flow-tools"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=flow-tools&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="flow-tools" /></a>
-<a href="https://github.com/tohraan/uae-events-hub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=uae-events-hub&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="uae-events-hub" /></a>
-<a href="https://github.com/tohraan/nearby-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=nearby-app&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="nearby-app" /></a>
-<a href="https://github.com/tohraan/chainid-vault"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=chainid-vault&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="chainid-vault" /></a>
-
-</div>
-
-### `$ git stats`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=tohraan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tohraan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8" alt="top languages" />
-
-<img src="https://streak-stats.demolab.com?user=tohraan&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0" alt="streak" />
+<a href="https://github.com/tohraan/orbit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=orbit&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="orbit" /></a>
+<a href="https://github.com/tohraan/cse-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=cse-lab&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="cse-lab" /></a>
+<a href="https://github.com/tohraan/flow-tools"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=flow-tools&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="flow-tools" /></a>
+<a href="https://github.com/tohraan/uae-events-hub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=uae-events-hub&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="uae-events-hub" /></a>
+<a href="https://github.com/tohraan/nearby-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=nearby-app&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="nearby-app" /></a>
+<a href="https://github.com/tohraan/chainid-vault"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tohraan&repo=chainid-vault&bg_color=0d1117&hide_border=true&theme=tokyonight" alt="chainid-vault" /></a>
 
 <img src="https://github-profile-trophy.vercel.app/?username=tohraan&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophies" />
 
@@ -108,12 +115,11 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 5. 🎉 Merged PR [#15](https://github.com/tohraan/pr-lab/pull/15) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
 <!--END_SECTION:activity-->
 
-### `$ ./contact.sh`
-
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-tohraan-181717?style=for-the-badge&logo=github)](https://github.com/tohraan)
-[![Receipts](https://img.shields.io/badge/Receipts-portfolio-00e5a0?style=for-the-badge&labelColor=0d1117)](https://tohraan-receipts.vercel.app)
+[![Site](https://img.shields.io/badge/Site-tohraan.github.io-00e5a0?style=for-the-badge&labelColor=0d1117)](https://tohraan.github.io)
+[![Receipts](https://img.shields.io/badge/Receipts-portfolio-58a6ff?style=for-the-badge&labelColor=0d1117)](https://tohraan-receipts.vercel.app)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=gradient&customColorList=12,20,24&section=footer" width="100%" alt="" />
 

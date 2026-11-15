@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Inter:wght@500;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1600px;height:520px;background:#070b10;overflow:hidden;font-family:'JetBrains Mono',Menlo,monospace;color:#e6edf3;position:relative}
+.glow{position:absolute;inset:0;background:
+ radial-gradient(700px 400px at 12% 15%,rgba(0,229,160,.28),transparent 60%),
+ radial-gradient(600px 420px at 88% 90%,rgba(56,139,253,.28),transparent 60%),
+ radial-gradient(500px 300px at 60% 0%,rgba(163,113,247,.16),transparent 60%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(900px 500px at 40% 50%,#000,transparent 85%)}
+.left{position:absolute;left:84px;top:78px;width:860px}
+.tag{display:inline-flex;gap:10px;align-items:center;border:1px solid rgba(0,229,160,.4);color:#00e5a0;background:rgba(0,229,160,.08);padding:8px 16px;border-radius:999px;font-size:17px;font-weight:600;letter-spacing:.08em}
+.dot{width:9px;height:9px;border-radius:50%;background:#00e5a0;box-shadow:0 0 12px #00e5a0}
+h1{font-family:Inter,sans-serif;font-weight:800;font-size:118px;line-height:1;letter-spacing:-.045em;margin-top:26px;background:linear-gradient(95deg,#fff 20%,#9ff5d6 55%,#58a6ff);-webkit-background-clip:text;color:transparent}
+.sub{font-size:25px;color:#9fb0c3;margin-top:22px;line-height:1.5}
+.sub b{color:#e6edf3;font-weight:600}
+.chips{display:flex;gap:12px;margin-top:34px}
+.chip{padding:9px 16px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);font-size:17px;color:#cdd9e5}
+.card{position:absolute;right:70px;top:54px;width:560px;border-radius:16px;background:rgba(13,17,23,.85);border:1px solid rgba(255,255,255,.14);box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 60px rgba(0,229,160,.12);transform:rotate(2deg)}
+.bar{display:flex;gap:8px;padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.1);align-items:center}
+.bar i{width:12px;height:12px;border-radius:50%;display:block}
+.bar span{margin-left:12px;font-size:14px;color:#7d8da1}
+pre{padding:20px 24px;font:500 17px/1.65 'JetBrains Mono',monospace;color:#cdd9e5}
+.k{color:#ff7b72}.f{color:#d2a8ff}.s{color:#a5d6ff}.c{color:#6e7f94}.n{color:#79c0ff}.g{color:#00e5a0}
+.pix{position:absolute;right:76px;bottom:26px;display:grid;grid-template-columns:repeat(26,16px);gap:4px;opacity:.95}
+.pix b{width:16px;height:16px;border-radius:3px;background:#161b22}
+.pix b.a{background:#0e4429}.pix b.b{background:#006d32}.pix b.c{background:#26a641}.pix b.d{background:#39d353;box-shadow:0 0 10px #39d35380}
+</style></head><body>
+<div class="glow"></div><div class="grid"></div>
+<div class="left">
+ <span class="tag"><span class="dot"></span>BITS PILANI · DUBAI</span>
+ <h1>Tohraan Khan</h1>
+ <p class="sub"><b>Computer Science.</b> I ship full-stack products,<br>automation and <b>programmatic video</b>.</p>
+ <div class="chips"><span class="chip">Next.js</span><span class="chip">Supabase</span><span class="chip">n8n</span><span class="chip">Remotion</span><span class="chip">Claude Code</span></div>
+</div>
+<div class="card">
+ <div class="bar"><i style="background:#ff5f56"></i><i style="background:#ffbd2e"></i><i style="background:#27c93f"></i><span>cse-lab / lru_cache.py</span></div>
+<pre><span class="k">class</span> <span class="f">LRUCache</span>:
+    <span class="k">def</span> <span class="f">get</span>(self, key):
+        <span class="k">if</span> key <span class="k">not in</span> self._d:
+            <span class="k">return</span> <span class="n">-1</span>
+        self._d.<span class="f">move_to_end</span>(key)
+        <span class="k">return</span> self._d[key]
+
+<span class="c"># O(1) get/put, tested, shipped.</span>
+<span class="g">$ pytest -q  →  61 passed</span></pre>
+</div>
+<div class="pix" id="pix"></div>
+<script>
+const rows=["#####..#...",""]; // decorative random grid
+const p=document.getElementById('pix');const cls=['','a','b','c','d'];
+let seed=7;const r=()=>(seed=(seed*9301+49297)%233280)/233280;
+for(let i=0;i<26*3;i++){const e=document.createElement('b');const v=r();e.className=v<.35?'':v<.55?'a':v<.75?'b':v<.9?'c':'d';p.appendChild(e)}
+</script>
+</body></html>

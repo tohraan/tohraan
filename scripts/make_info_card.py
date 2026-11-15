@@ -17,11 +17,15 @@ PROMPT = "tohraan@github"
 # --- content -------------------------------------------------------------
 NOW = "Founder & CEO @ Triaxon Automation"
 PREV = "CRM Developer @ Weez Entertainment"
-STACK = "Python, TS, React, Next.js, OpenAI API"
+STACK = "TypeScript, Next.js, Supabase, Python, n8n"
 HIGHLIGHTS = [
-    "Closed first paying B2B clients before age 19",
+    "1st place, GDG Ideathon",
+    "1st place, ACM-W Broken Brief",
+    "2nd place, IEEE Campus Ops",
     "3rd place, Deriv AI Hackathon (agentic AI)",
-    "Building ONCA (AI fintech), targeting YC",
+    "Built BITS Bazaar: campus marketplace on Supabase",
+    "Built Orbit + Brand My Mac (live auction, Stripe)",
+    "Closed first paying B2B clients before age 19",
 ]
 # --------------------------------------------------------------------------
 
