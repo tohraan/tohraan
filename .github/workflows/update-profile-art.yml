@@ -26,7 +26,10 @@ jobs:
       - run: python scripts/fetch_contributions.py
       - run: python scripts/render_heatmap_svg.py
       - run: python scripts/make_contrib_animated.py
+      - run: python scripts/make_stats_cards.py
+        env:
+          GH_TOKEN: ${{ github.token }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg contrib-animated.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg contrib-animated.svg stats-card.svg langs-card.svg"

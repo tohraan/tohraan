@@ -14,9 +14,9 @@
 <tr>
 <td valign="top" width="58%"><img src="./assets/terminal.svg" width="100%" alt="animated terminal" /></td>
 <td valign="top" width="42%" align="right">
-<img src="https://github-readme-stats.vercel.app/api?username=tohraan&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d1117&hide_border=true&theme=tokyonight&card_width=330" width="100%" alt="git stats" />
+<img src="./stats-card.svg" width="100%" alt="git stats" />
 <img src="https://streak-stats.demolab.com?user=tohraan&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5A0&fire=00E5A0&currStreakLabel=00E5A0" width="100%" alt="streak" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tohraan&layout=compact&langs_count=7&bg_color=0d1117&hide_border=true&theme=tokyonight&card_width=330" width="100%" alt="top languages" />
+<img src="./langs-card.svg" width="100%" alt="top languages" />
 </td>
 </tr>
 </table>
