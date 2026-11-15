@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: contrib-3d
+  group: main-writes
   cancel-in-progress: false
 
 jobs:

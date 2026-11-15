@@ -8,6 +8,10 @@ name: Recent activity
 permissions:
   contents: write
 
+concurrency:
+  group: main-writes
+  cancel-in-progress: false
+
 jobs:
   activity:
     runs-on: ubuntu-latest
