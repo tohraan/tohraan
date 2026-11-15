@@ -38,6 +38,7 @@ STYLE = ("<style>.a{opacity:0;animation:up .6s ease-out forwards}@keyframes up{f
 
 rows = [("Total stars", stars), ("Commits (last year)", u["contributionsCollection"]["totalCommitContributions"] + u["contributionsCollection"]["restrictedContributionsCount"]),
         ("Pull requests", u["pullRequests"]["totalCount"]), ("Issues", u["issues"]["totalCount"]),
+        ("Public repos", u["repositories"]["totalCount"])]
 W, H = 330, 60 + len(rows) * 28
 s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">{STYLE}',
      f'<rect width="{W}" height="{H}" rx="12" fill="#0d1117" stroke="#30363d"/>',
