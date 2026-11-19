@@ -3,7 +3,7 @@
 <text x="20" y="32" class="t" font-size="15" font-weight="700">Tohraan's GitHub Stats</text>
 <rect x="20" y="42" width="290" height="2" rx="1" fill="#00e5a0" opacity=".5"/>
 <g class="a" style="animation-delay:0.00s"><circle cx="26" cy="67" r="4" fill="#00e5a0"/><text x="40" y="72" class="m" font-size="13">Total stars</text><text x="310" y="72" class="v" font-size="14" text-anchor="end">2</text></g>
-<g class="a" style="animation-delay:0.12s"><circle cx="26" cy="95" r="4" fill="#00e5a0"/><text x="40" y="100" class="m" font-size="13">Commits (last year)</text><text x="310" y="100" class="v" font-size="14" text-anchor="end">663</text></g>
+<g class="a" style="animation-delay:0.12s"><circle cx="26" cy="95" r="4" fill="#00e5a0"/><text x="40" y="100" class="m" font-size="13">Commits (last year)</text><text x="310" y="100" class="v" font-size="14" text-anchor="end">671</text></g>
 <g class="a" style="animation-delay:0.24s"><circle cx="26" cy="123" r="4" fill="#00e5a0"/><text x="40" y="128" class="m" font-size="13">Pull requests</text><text x="310" y="128" class="v" font-size="14" text-anchor="end">21</text></g>
 <g class="a" style="animation-delay:0.36s"><circle cx="26" cy="151" r="4" fill="#00e5a0"/><text x="40" y="156" class="m" font-size="13">Issues</text><text x="310" y="156" class="v" font-size="14" text-anchor="end">7</text></g>
 <g class="a" style="animation-delay:0.48s"><circle cx="26" cy="179" r="4" fill="#00e5a0"/><text x="40" y="184" class="m" font-size="13">Public repos</text><text x="310" y="184" class="v" font-size="14" text-anchor="end">58</text></g>
