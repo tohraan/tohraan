@@ -86,11 +86,11 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 ### `$ tail -f activity.log`
 
 <!--START_SECTION:activity-->
-1. 🔒 Closed issue [#17](https://github.com/tohraan/pr-lab/issues/17) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
-2. ❗ Opened issue [#17](https://github.com/tohraan/pr-lab/issues/17) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
-3. 🎉 Merged PR [#16](https://github.com/tohraan/pr-lab/pull/16) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
-4. 💪 Opened PR [#16](https://github.com/tohraan/pr-lab/pull/16) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
-5. 🎉 Merged PR [#15](https://github.com/tohraan/pr-lab/pull/15) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
+1. 🎉 Merged PR [#1](https://github.com/tohraan/facevalue/pull/1) in [tohraan/facevalue](https://github.com/tohraan/facevalue)
+2. 💪 Opened PR [#1](https://github.com/tohraan/facevalue/pull/1) in [tohraan/facevalue](https://github.com/tohraan/facevalue)
+3. 🔒 Closed issue [#17](https://github.com/tohraan/pr-lab/issues/17) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
+4. ❗ Opened issue [#17](https://github.com/tohraan/pr-lab/issues/17) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
+5. 🎉 Merged PR [#16](https://github.com/tohraan/pr-lab/pull/16) in [tohraan/pr-lab](https://github.com/tohraan/pr-lab)
 <!--END_SECTION:activity-->
 
 <div align="center">
