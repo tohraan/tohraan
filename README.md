@@ -77,168 +77,238 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <img src="https://img.shields.io/badge/%F0%9F%A5%88%20IEEE%20Campus%20Ops-2nd-58a6ff?style=for-the-badge&labelColor=0d1117" alt="IEEE Campus Ops 2nd" />
 <img src="https://img.shields.io/badge/%F0%9F%A5%89%20Deriv%20AI%20Hackathon-3rd-f59e0b?style=for-the-badge&labelColor=0d1117" alt="Deriv AI Hackathon 3rd" />
 
-<sub>Screenshots are from the real builds. 🔒 marks private repos: ask and I'll walk you through the code.</sub>
-
 </div>
 
-#### 🏁 Hackathon builds
+<img src="assets/proof/header-hackathons.svg" width="100%" alt="Hackathon builds" />
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/focus"><img src="assets/proof/focus.jpg" width="100%" alt="FOCUS" /></a>
-<br><b>FOCUS</b> &nbsp;<sub>🥇 GDG Ideathon · 1st</sub>
-<br><sub>Smart study glasses that edit people out of your view. Swift + Metal, 100% on-device.</sub>
-<br><sub><a href="https://github.com/tohraan/focus">repo</a> · launch film + demos in the README</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/orbit"><img src="assets/proof/orbit.jpg" width="100%" alt="Orbit" /></a>
-<br><b>Orbit</b> &nbsp;<sub>GDG Ideathon · Ideaverse entry</sub>
-<br><sub>Every research opportunity a BITS Pilani Dubai student can apply to, ranked by the deadline that matters next.</sub>
-<br><sub><a href="https://github.com/tohraan/orbit">repo</a> · 86 commits · Next.js 16, Supabase, n8n</sub>
+<td width="210" valign="top"><a href="https://github.com/tohraan/focus"><img src="assets/proof/focus.jpg" width="200" alt="FOCUS" /></a></td>
+<td valign="top">
+<b>FOCUS</b> &nbsp;<code>🥇 GDG Ideathon · 1st</code>
+<ul>
+<li>Won <b>1st place</b> by building smart study glasses that erase people from your view, using an on-device Swift + Metal compositor with <b>0 cloud calls</b>.</li>
+<li>Cut fill error from <b>31.6 to 24.8 (−21%)</b> on a 7-clip benchmark by iterating the inpainting engine.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/focus">repo</a> · launch film in README</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://dalil-water.vercel.app"><img src="assets/proof/breaking-bytes.jpg" width="100%" alt="Dalil (دليل)" /></a>
-<br><b>Dalil (دليل)</b> &nbsp;<sub>Breaking Bytes · W-001</sub>
-<br><sub>Desert water early warning for the GCC: satellites find the water, a model forecasts days left, and villages get a daily voice call.</sub>
-<br><sub><a href="https://dalil-water.vercel.app">live demo</a> · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://facevalue-psi.vercel.app"><img src="assets/proof/facevalue.jpg" width="100%" alt="FaceValue" /></a>
-<br><b>FaceValue</b> &nbsp;<sub>HASH IT OUT 2026 · Track 6</sub>
-<br><sub>Concert tickets that can't be scalped: verified fans, face-value resale, signed entry passes on Base Sepolia.</sub>
-<br><sub><a href="https://facevalue-psi.vercel.app">live demo</a> · 47 commits · 🔒 private repo</sub>
+<td width="210" valign="top"><a href="https://github.com/tohraan/orbit"><img src="assets/proof/orbit.jpg" width="200" alt="Orbit" /></a></td>
+<td valign="top">
+<b>Orbit</b> &nbsp;<code>GDG Ideathon · Ideaverse</code>
+<ul>
+<li>Indexed <b>431 open calls</b> from <b>2,274 raw records</b> across <b>14 sources</b> with a nightly n8n → Supabase → Next.js pipeline.</li>
+<li>Dropped a source that made up <b>46%</b> of the corpus but targeted the wrong audience, and ranked matches with published weights (degree <b>34%</b>, field <b>26%</b>, funding <b>18%</b>).</li>
+</ul>
+<sub><a href="https://github.com/tohraan/orbit">repo</a> · 86 commits</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/proof/fairbook.jpg" width="100%" alt="Fairbook" />
-<br><b>Fairbook</b> &nbsp;<sub>HASH IT OUT 2026</sub>
-<br><sub>A sportsbook where the house can't cheat: locked odds, proof of reserves and on-chain disputes.</sub>
-<br><sub>Base Sepolia smart contracts · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/seas-of-data"><img src="assets/proof/seas-of-data.jpg" width="100%" alt="Seas of Data" /></a>
-<br><b>Seas of Data</b> &nbsp;<sub>Supernova × SpacePoint 2026</sub>
-<br><sub>Finds "dark" ships that switch off AIS, using Sentinel-1 radar. Tracker of 673 real ships.</sub>
-<br><sub><a href="https://github.com/tohraan/seas-of-data">repo</a> · <a href="https://tohraan.github.io/seas-of-data/">site</a> · 4/4 scenes on predicted passes</sub>
+<td width="210" valign="top"><a href="https://dalil-water.vercel.app"><img src="assets/proof/breaking-bytes.jpg" width="200" alt="Dalil (دليل)" /></a></td>
+<td valign="top">
+<b>Dalil (دليل)</b> &nbsp;<code>Breaking Bytes · W-001</code>
+<ul>
+<li>Caught <b>92%</b> of desert water-source dry-ups (<b>77</b> backtest events, <b>9-week</b> median warning) by forecasting satellite water history, with <b>18%</b> less error than a no-change baseline.</li>
+<li>Reached villages without smartphones through a bilingual EN/AR Twilio voice call that tells them the days left and the nearest source.</li>
+</ul>
+<sub><a href="https://dalil-water.vercel.app">live demo</a> · 🔒 private</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/proof/ieee-ai-voice-heist.jpg" width="100%" alt="AI Voice Heist" />
-<br><b>AI Voice Heist</b> &nbsp;<sub>IEEE stall · 25 Nov 2026</sub>
-<br><sub>Talk your way past VAULT, an LLM guard, to win a real snack.</sub>
-<br><sub>17 snacks won on the day · 🔒 private repo</sub>
-</td>
-<td width="50%"></td>
-</tr>
-</table>
-
-#### 🚀 Products I've shipped
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/proof/bits-bazaar.jpg" width="100%" alt="BITS Bazaar" />
-<br><b>BITS Bazaar</b> &nbsp;<sub>campus marketplace</sub>
-<br><sub>The student marketplace for BITS Pilani Dubai. Discovery, trust and the intro, with the deal done over WhatsApp.</sub>
-<br><sub>48 Postgres migrations · RLS · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/proof/krypsm.jpg" width="100%" alt="Krypsm + Krypsm Ops" />
-<br><b>Krypsm + Krypsm Ops</b> &nbsp;<sub>client platform</sub>
-<br><sub>Intern time tracking with no timesheets: Electron agent, React portal, Express API, Chrome extension, plus a separate on-call console.</sub>
-<br><sub>4 production surfaces · signed macOS/Windows releases · 35 synthetic probes · 🔒 private repo</sub>
+<td width="210" valign="top"><a href="https://facevalue-psi.vercel.app"><img src="assets/proof/facevalue.jpg" width="200" alt="FaceValue" /></a></td>
+<td valign="top">
+<b>FaceValue</b> &nbsp;<code>HASH IT OUT 2026 · Track 6</code>
+<ul>
+<li>Made ticket scalping impossible by putting <b>1 ticket per person</b>, face-value-only resale (<b>95%</b> to the seller, <b>5%</b> to the organiser) and <b>5-minute</b> single-use entry passes into a Base Sepolia smart contract.</li>
+</ul>
+<sub><a href="https://facevalue-psi.vercel.app">live demo</a> · 47 commits · 🔒 private</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/proof/clearance-desk.jpg" width="100%" alt="Clearance Desk" />
-<br><b>Clearance Desk</b> &nbsp;<sub>B2B · UAE logistics</sub>
-<br><sub>Mirsal 2 customs declaration prep for Dubai freight forwarders. "Stop paying demurrage for paperwork."</sub>
-<br><sub>33 commits · auto-deploys from main · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/proof/tempo.jpg" width="100%" alt="Tempo" />
-<br><b>Tempo</b> &nbsp;<sub>native app</sub>
-<br><sub>SwiftUI life tracker on iPhone, iPad and Mac: prayer, tasks, gym, food, money and work time, with widgets and a Live Activity.</sub>
-<br><sub>installed on my iPhone · Supabase sync · 🔒 private repo</sub>
+<td width="210" valign="top"><a href="https://fairbook-gray.vercel.app"><img src="assets/proof/fairbook.jpg" width="200" alt="FairRent" /></a></td>
+<td valign="top">
+<b>FairRent</b> &nbsp;<code>HASH IT OUT 2026</code>
+<ul>
+<li>Ended rental-deposit disputes by having renters co-sign photo-fingerprinted condition records in a Solidity contract on Base Sepolia, so no one can rewrite them later.</li>
+<li>Covered the contract with <b>11 passing tests</b>, and the live demo shows <b>10 of 10</b> cheat attempts being refused.</li>
+</ul>
+<sub><a href="https://fairbook-gray.vercel.app">live demo</a> · 🔒 private</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/proof/brand-my-mac.jpg" width="100%" alt="Brand My Mac" />
-<br><b>Brand My Mac</b> &nbsp;<sub>live auction</sub>
-<br><sub>12 sticker spots on a MacBook sold by live auction. Deposits charged and refunded, with idempotent webhooks.</sub>
-<br><sub>Stripe + Supabase Realtime · auction paused on purpose · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/proof/video-os.jpg" width="100%" alt="video-os" />
-<br><b>video-os</b> &nbsp;<sub>video pipeline</sub>
-<br><sub>A talking-head video goes in. Word-timed Remotion captions and agent-planned HyperFrames B-roll come out.</sub>
-<br><sub>whisper.cpp → Remotion · 16:9 + 9:16 · 🔒 private repo</sub>
+<td width="210" valign="top"><a href="https://github.com/tohraan/seas-of-data"><img src="assets/proof/seas-of-data.jpg" width="200" alt="Seas of Data" /></a></td>
+<td valign="top">
+<b>Seas of Data</b> &nbsp;<code>Supernova × SpacePoint 2026</code>
+<ul>
+<li>Flagged <b>16</b> possibly-dark ships by detecting <b>250</b> vessels on Sentinel-1 radar at <b>94%</b> ship precision and cross-checking them against Global Fishing Watch AIS.</li>
+<li>Matched <b>4 of 4</b> scenes to predicted satellite passes (±17 s) on a live tracker of <b>673</b> ships.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/seas-of-data">repo</a> · <a href="https://tohraan.github.io/seas-of-data/">site</a></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/proof/linkedin-command-center.jpg" width="100%" alt="LinkedIn Command Center" />
-<br><b>LinkedIn Command Center</b> &nbsp;<sub>content OS</sub>
-<br><sub>Research → direction → writing → review engine, plus scheduling, analytics and an outreach CRM.</sub>
-<br><sub>220 commits · 51 migrations · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/proof/tohraan-signal.jpg" width="100%" alt="Tohraan Signal" />
-<br><b>Tohraan Signal</b> &nbsp;<sub>portfolio</sub>
-<br><sub>My latest portfolio, cut like a film in six reels: GSAP, Lenis and a three.js shader.</sub>
-<br><sub>Next.js 16 · 🔒 private repo</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/proof/ultrawide-suite.jpg" width="100%" alt="UltraWide" />
-<br><b>UltraWide</b> &nbsp;<sub>macOS app</sub>
-<br><sub>Menu-bar window manager for a 21:9 display: custom zones, named layouts, re-dock restore and media keys.</sub>
-<br><sub>~2,200 lines of Swift · phases 0–7 built · 🔒 private repo</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/trading-sensei"><img src="assets/proof/trading-sensei.jpg" width="100%" alt="Trading Sensei XR" /></a>
-<br><b>Trading Sensei XR</b> &nbsp;<sub>mixed reality</sub>
-<br><sub>Gesture-controlled AR/VR trading desk in the browser, with MediaPipe hands and a stress engine.</sub>
-<br><sub><a href="https://github.com/tohraan/trading-sensei">repo</a></sub>
+<td width="210" valign="top"><img src="assets/proof/ieee-ai-voice-heist.jpg" width="200" alt="AI Voice Heist" /></td>
+<td valign="top">
+<b>AI Voice Heist</b> &nbsp;<code>IEEE stall · 25 Nov 2026</code>
+<ul>
+<li>Ran a live LLM social-engineering game for <b>84 players</b> across <b>92 plays</b>, with <b>17</b> snacks won.</li>
+<li>Lifted the win rate from <b>2% to 43%</b> with a mid-event prompt patch.</li>
+</ul>
+<sub>🔒 private</sub>
 </td>
 </tr>
 </table>
 
-#### 🧰 Claude Code skills &amp; agent tooling
+<img src="assets/proof/header-products.svg" width="100%" alt="Products and client work" />
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/paper-reel-media"><img src="assets/proof/paper-reel.jpg" width="100%" alt="paper-reel" /></a>
-<br><b>paper-reel</b> &nbsp;<sub>Claude Code skill</sub>
-<br><sub>Topic → 23-second papercraft stop-motion reel with Pip. Local, $0, and no two reels look alike.</sub>
-<br><sub><a href="https://github.com/tohraan/paper-reel-media">7 reels, watch them</a></sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/paper-reel-media"><img src="assets/proof/collage-reel.jpg" width="100%" alt="collage-reel" /></a>
-<br><b>collage-reel</b> &nbsp;<sub>Claude Code skill</sub>
-<br><sub>Copywriter brief → cut-out zine reel, with scraps landing on the exact spoken word.</sub>
-<br><sub><a href="https://github.com/tohraan/paper-reel-media">watch a reel</a> · 🔒 private repo</sub>
+<td width="210" valign="top"><img src="assets/proof/bits-bazaar.jpg" width="200" alt="BITS Bazaar" /></td>
+<td valign="top">
+<b>BITS Bazaar</b> &nbsp;<code>campus marketplace</code>
+<ul>
+<li>Launched the BITS Pilani Dubai student marketplace on Next.js 16 + Supabase, reaching <b>36 live listings from 11 students</b> (checked 17 Oct 2026).</li>
+<li>Fixed a seller stat that showed <b>4 messages</b> for a listing with <b>1</b> by deriving taps vs. real messages in SQL. <b>48</b> migrations with row-level security.</li>
+</ul>
+<sub>🔒 private</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/tohraan/flow-tools"><img src="assets/proof/flow-tools.jpg" width="100%" alt="flow-tools" /></a>
-<br><b>flow-tools</b> &nbsp;<sub>agent tooling</sub>
-<br><sub>Keyboard-free, zero-dependency automation for Google Flow over the Chrome DevTools Protocol.</sub>
-<br><sub><a href="https://github.com/tohraan/flow-tools">repo</a> · MIT</sub>
+<td width="210" valign="top"><img src="assets/proof/krypsm.jpg" width="200" alt="Krypsm + Krypsm Ops" /></td>
+<td valign="top">
+<b>Krypsm + Krypsm Ops</b> &nbsp;<code>client platform</code>
+<ul>
+<li>Replaced manual intern timesheets with <b>4 surfaces</b> (Electron agent, React portal, Express API, Chrome MV3 extension) serving <b>5 roles</b>.</li>
+<li>Wrote <b>205 checks</b> across 7 roles, whose first run caught <b>6 real bugs</b>, and built an on-call console that probes <b>35</b> routes every <b>10 min</b>.</li>
+</ul>
+<sub>signed macOS + Windows installers · 🔒 private</sub>
 </td>
-<td width="50%"></td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/clearance-desk.jpg" width="200" alt="Clearance Desk" /></td>
+<td valign="top">
+<b>Clearance Desk</b> &nbsp;<code>B2B · UAE logistics</code>
+<ul>
+<li>Automated <b>4 of the 6</b> steps in Dubai Mirsal 2 customs prep (classify, extract, cross-check, rank HS codes), so a forwarder only reviews the declaration.</li>
+<li>Shipped the landing page, demurrage calculator, VSL and lead capture in <b>33 commits over 2 days</b>.</li>
+</ul>
+<sub>🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/tempo.jpg" width="200" alt="Tempo" /></td>
+<td valign="top">
+<b>Tempo</b> &nbsp;<code>SwiftUI · iOS + macOS</code>
+<ul>
+<li>Rebuilt a lost life-tracker as <b>one SwiftUI codebase on 3 platforms</b> (iPhone, iPad, Mac) with <b>11 modules</b>, widgets and a Live Activity.</li>
+<li>Shared logic is covered by <b>34 tests</b> in TempoKit, with Supabase sync kept alive by a daily CI ping.</li>
+</ul>
+<sub>installed on my iPhone · 🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/brand-my-mac.jpg" width="200" alt="Brand My Mac" /></td>
+<td valign="top">
+<b>Brand My Mac</b> &nbsp;<code>live auction</code>
+<ul>
+<li>Auctioned <b>12</b> sticker spots on a real MacBook with Stripe + Supabase Realtime, charging max(<b>20%</b>, <b>$10</b>) deposits up front because card holds expire in about <b>7 days</b>.</li>
+<li>Made double refunds impossible with <b>3 independent guards</b> and idempotent Stripe webhooks.</li>
+</ul>
+<sub>auction paused on purpose · 🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/video-os.jpg" width="200" alt="video-os" /></td>
+<td valign="top">
+<b>video-os</b> &nbsp;<code>video pipeline</code>
+<ul>
+<li>Automated talking-head captions with ffmpeg → whisper.cpp word timings → Remotion, sizing the captions from the speaker's measured face height.</li>
+<li>Rendered agent-planned B-roll cutaways in HyperFrames in <b>2 ratios</b> (16:9 + 9:16), each with a cut list.</li>
+</ul>
+<sub>🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/linkedin-command-center.jpg" width="200" alt="LinkedIn Command Center" /></td>
+<td valign="top">
+<b>LinkedIn Command Center</b> &nbsp;<code>content OS</code>
+<ul>
+<li>Built a content engine for <b>4 channels</b> that runs research → direction → writing → review as leased, retryable jobs: <b>220 commits</b>, <b>51 migrations</b>.</li>
+<li>Tracks outreach with a <b>7-step</b> follow-up CRM and an auto-generated weekly funnel review.</li>
+</ul>
+<sub>🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/tohraan-signal.jpg" width="200" alt="Tohraan Signal" /></td>
+<td valign="top">
+<b>Tohraan Signal</b> &nbsp;<code>portfolio</code>
+<ul>
+<li>Designed my portfolio as a film in <b>6 reels</b> with GSAP, Lenis and a three.js shader, with every claim sourced from <b>1</b> data file.</li>
+</ul>
+<sub>Next.js 16 · 🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/ultrawide-suite.jpg" width="200" alt="UltraWide" /></td>
+<td valign="top">
+<b>UltraWide</b> &nbsp;<code>native macOS</code>
+<ul>
+<li>Filled <b>4 gaps</b> no open-source window manager covers (custom zones, app layouts, named layouts, re-dock restore) in <b>~2,200 lines</b> of Swift, with <b>0 private APIs</b> and <b>40+</b> geometry tests.</li>
+</ul>
+<sub>🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><a href="https://github.com/tohraan/trading-sensei"><img src="assets/proof/trading-sensei.jpg" width="200" alt="Trading Sensei XR" /></a></td>
+<td valign="top">
+<b>Trading Sensei XR</b> &nbsp;<code>mixed reality</code>
+<ul>
+<li>Turned a webcam into a gesture-controlled AR/VR trading desk with MediaPipe hand tracking at <b>30 fps</b> and a face-api stress engine that steps in on tilt.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/trading-sensei">repo</a></sub>
+</td>
 </tr>
 </table>
+
+<img src="assets/proof/header-tools.svg" width="100%" alt="Claude Code skills and tooling" />
+
+<table>
+<tr>
+<td width="210" valign="top"><a href="https://github.com/tohraan/paper-reel-media"><img src="assets/proof/paper-reel.jpg" width="200" alt="paper-reel" /></a></td>
+<td valign="top">
+<b>paper-reel</b> &nbsp;<code>Claude Code skill</code>
+<ul>
+<li>Published <b>7</b> papercraft stop-motion reels (~<b>23 s</b>, <b>6</b> beats each) for <b>$0</b> with a local HyperFrames + Kokoro + whisper pipeline.</li>
+<li>Keeps every reel different by picking the least-used option on <b>10</b> style axes.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/paper-reel-media">watch the reels</a> · engine 🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><a href="https://github.com/tohraan/paper-reel-media"><img src="assets/proof/collage-reel.jpg" width="200" alt="collage-reel" /></a></td>
+<td valign="top">
+<b>collage-reel</b> &nbsp;<code>Claude Code skill</code>
+<ul>
+<li>Turns a copywriter's brief into a cut-out zine reel using <b>9</b> layout kits, with every scrap landing on its spoken word. <b>5</b> reels rendered locally for <b>$0</b>.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/paper-reel-media">watch a reel</a> · 🔒 private</sub>
+</td>
+</tr>
+<tr>
+<td width="210" valign="top"><a href="https://github.com/tohraan/flow-tools"><img src="assets/proof/flow-tools.jpg" width="200" alt="flow-tools" /></a></td>
+<td valign="top">
+<b>flow-tools</b> &nbsp;<code>agent tooling</code>
+<ul>
+<li>Automated Google Flow generation and <b>1K/2K/4K</b> downloads over the raw Chrome DevTools Protocol with <b>0 dependencies</b>. It runs as a LaunchAgent that survives sleep/wake.</li>
+</ul>
+<sub><a href="https://github.com/tohraan/flow-tools">repo</a> · MIT</sub>
+</td>
+</tr>
+</table>
+
+<sub>Every number comes from the repo, its README or a dated check. 🔒 = private repo, happy to walk through the code.</sub>
 
 ### `$ ls projects/`
 
