@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#bc8cff" stop-opacity="0.28"/><stop offset="0.55" stop-color="#bc8cff" stop-opacity="0.04"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="999" height="83" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="999" height="83" rx="10" fill="url(#g)"/>
+  <rect x="0" y="14" width="6" height="56" rx="3" fill="#bc8cff"/>
+  <text x="30" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#bc8cff" letter-spacing="2">02 // EXPERIENCE</text>
+  <text x="30" y="64" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="0.5">INTERNSHIP · KRYPSM</text>
+  <text x="975" y="58" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#8b949e">4 surfaces · 205 checks</text>
+</svg>

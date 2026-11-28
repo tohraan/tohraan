@@ -3,7 +3,7 @@
   <rect x="0.5" y="0.5" width="999" height="83" rx="10" fill="#0d1117" stroke="#30363d"/>
   <rect x="0.5" y="0.5" width="999" height="83" rx="10" fill="url(#g)"/>
   <rect x="0" y="14" width="6" height="56" rx="3" fill="#f59e0b"/>
-  <text x="30" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#f59e0b" letter-spacing="2">03 // AGENTS</text>
+  <text x="30" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#f59e0b" letter-spacing="2">04 // AGENTS</text>
   <text x="30" y="64" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="0.5">CLAUDE CODE SKILLS &amp; TOOLING</text>
   <text x="975" y="58" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#8b949e">3 tools · all run locally</text>
 </svg>

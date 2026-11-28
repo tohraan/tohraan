@@ -75,6 +75,7 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <img src="https://img.shields.io/badge/%F0%9F%A5%87%20GDG%20Ideathon-1st-00e5a0?style=for-the-badge&labelColor=0d1117" alt="GDG Ideathon 1st" />
 <img src="https://img.shields.io/badge/%F0%9F%A5%87%20ACM--W%20Broken%20Brief-1st-00e5a0?style=for-the-badge&labelColor=0d1117" alt="ACM-W Broken Brief 1st" />
 <img src="https://img.shields.io/badge/%F0%9F%A5%88%20IEEE%20Campus%20Ops-2nd-58a6ff?style=for-the-badge&labelColor=0d1117" alt="IEEE Campus Ops 2nd" />
+<img src="https://img.shields.io/badge/%F0%9F%A5%89%20GDG%20Breaking%20Bytes-3rd-f59e0b?style=for-the-badge&labelColor=0d1117" alt="GDG Breaking Bytes 3rd" />
 <img src="https://img.shields.io/badge/%F0%9F%A5%89%20Deriv%20AI%20Hackathon-3rd-f59e0b?style=for-the-badge&labelColor=0d1117" alt="Deriv AI Hackathon 3rd" />
 
 </div>
@@ -96,9 +97,9 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <tr>
 <td width="210" valign="top"><a href="https://github.com/tohraan/orbit"><img src="assets/proof/orbit.jpg" width="200" alt="Orbit" /></a></td>
 <td valign="top">
-<b>Orbit</b> &nbsp;<code>GDG Ideathon · Ideaverse</code>
+<b>Orbit</b> &nbsp;<code>🥈 IEEE Campus Ops · 2nd</code>
 <ul>
-<li>Indexed <b>431 open calls</b> from <b>2,274 raw records</b> across <b>14 sources</b> with a nightly n8n → Supabase → Next.js pipeline.</li>
+<li>Won <b>2nd place</b> by indexing <b>431 open research calls</b> from <b>2,274 raw records</b> across <b>14 sources</b> with a nightly n8n → Supabase → Next.js pipeline.</li>
 <li>Dropped a source that made up <b>46%</b> of the corpus but targeted the wrong audience, and ranked matches with published weights (degree <b>34%</b>, field <b>26%</b>, funding <b>18%</b>).</li>
 </ul>
 <sub><a href="https://github.com/tohraan/orbit">repo</a> · 86 commits</sub>
@@ -107,9 +108,9 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <tr>
 <td width="210" valign="top"><a href="https://dalil-water.vercel.app"><img src="assets/proof/breaking-bytes.jpg" width="200" alt="Dalil (دليل)" /></a></td>
 <td valign="top">
-<b>Dalil (دليل)</b> &nbsp;<code>Breaking Bytes · W-001</code>
+<b>Dalil (دليل)</b> &nbsp;<code>🥉 GDG Breaking Bytes · 3rd</code>
 <ul>
-<li>Caught <b>92%</b> of desert water-source dry-ups (<b>77</b> backtest events, <b>9-week</b> median warning) by forecasting satellite water history, with <b>18%</b> less error than a no-change baseline.</li>
+<li>Won <b>3rd place</b> by forecasting satellite water history to catch <b>92%</b> of desert water-source dry-ups (<b>77</b> backtest events, <b>9-week</b> median warning), with <b>18%</b> less error than a no-change baseline.</li>
 <li>Reached villages without smartphones through a bilingual EN/AR Twilio voice call that tells them the days left and the nearest source.</li>
 </ul>
 <sub><a href="https://dalil-water.vercel.app">live demo</a> · 🔒 private</sub>
@@ -160,13 +161,29 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 </tr>
 </table>
 
-<img src="assets/proof/header-products.svg" width="100%" alt="Products and client work" />
+<img src="assets/proof/header-internship.svg" width="100%" alt="Internship at Krypsm" />
+
+<table>
+<tr>
+<td width="210" valign="top"><img src="assets/proof/krypsm.jpg" width="200" alt="Krypsm + Krypsm Ops" /></td>
+<td valign="top">
+<b>Krypsm + Krypsm Ops</b> &nbsp;<code>internship · intern-ops platform</code>
+<ul>
+<li>Replaced manual intern timesheets with <b>4 surfaces</b> (Electron agent, React portal, Express API, Chrome MV3 extension) serving <b>5 roles</b>.</li>
+<li>Wrote <b>205 checks</b> across 7 roles, whose first run caught <b>6 real bugs</b>, and built an on-call console that probes <b>35</b> routes every <b>10 min</b>.</li>
+</ul>
+<sub>signed macOS + Windows installers · 🔒 private</sub>
+</td>
+</tr>
+</table>
+
+<img src="assets/proof/header-products.svg" width="100%" alt="Products and side projects" />
 
 <table>
 <tr>
 <td width="210" valign="top"><img src="assets/proof/bits-bazaar.jpg" width="200" alt="BITS Bazaar" /></td>
 <td valign="top">
-<b>BITS Bazaar</b> &nbsp;<code>campus marketplace</code>
+<b>BITS Bazaar</b> &nbsp;<code>personal · campus marketplace</code>
 <ul>
 <li>Launched the BITS Pilani Dubai student marketplace on Next.js 16 + Supabase, reaching <b>36 live listings from 11 students</b> (checked 17 Oct 2026).</li>
 <li>Fixed a seller stat that showed <b>4 messages</b> for a listing with <b>1</b> by deriving taps vs. real messages in SQL. <b>48</b> migrations with row-level security.</li>
@@ -175,31 +192,20 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 </td>
 </tr>
 <tr>
-<td width="210" valign="top"><img src="assets/proof/krypsm.jpg" width="200" alt="Krypsm + Krypsm Ops" /></td>
+<td width="210" valign="top"><a href="https://github.com/tohraan/uae-events-hub"><img src="assets/proof/uae-events-hub.jpg" width="200" alt="UAE Events Hub" /></a></td>
 <td valign="top">
-<b>Krypsm + Krypsm Ops</b> &nbsp;<code>client platform</code>
+<b>UAE Events Hub</b> &nbsp;<code>open data · MCP</code>
 <ul>
-<li>Replaced manual intern timesheets with <b>4 surfaces</b> (Electron agent, React portal, Express API, Chrome MV3 extension) serving <b>5 roles</b>.</li>
-<li>Wrote <b>205 checks</b> across 7 roles, whose first run caught <b>6 real bugs</b>, and built an on-call console that probes <b>35</b> routes every <b>10 min</b>.</li>
+<li>Pulled UAE tech, AI and hackathon events from <b>4 sources</b> (Luma, Eventbrite, Meetup, Hub71) into one index served <b>6 ways</b>: MCP server, REST, OpenAPI 3.1, LLM text, <code>llms.txt</code> and calendar feeds.</li>
+<li>Kept the data honest: a field the source does not publish stays <code>null</code>, a broken scraper shows on <code>/api/health</code>, and events a source drops are hidden after <b>36 h</b>.</li>
 </ul>
-<sub>signed macOS + Windows installers · 🔒 private</sub>
-</td>
-</tr>
-<tr>
-<td width="210" valign="top"><img src="assets/proof/clearance-desk.jpg" width="200" alt="Clearance Desk" /></td>
-<td valign="top">
-<b>Clearance Desk</b> &nbsp;<code>B2B · UAE logistics</code>
-<ul>
-<li>Automated <b>4 of the 6</b> steps in Dubai Mirsal 2 customs prep (classify, extract, cross-check, rank HS codes), so a forwarder only reviews the declaration.</li>
-<li>Shipped the landing page, demurrage calculator, VSL and lead capture in <b>33 commits over 2 days</b>.</li>
-</ul>
-<sub>🔒 private</sub>
+<sub><a href="https://github.com/tohraan/uae-events-hub">repo</a> · MIT</sub>
 </td>
 </tr>
 <tr>
 <td width="210" valign="top"><img src="assets/proof/tempo.jpg" width="200" alt="Tempo" /></td>
 <td valign="top">
-<b>Tempo</b> &nbsp;<code>SwiftUI · iOS + macOS</code>
+<b>Tempo</b> &nbsp;<code>personal · SwiftUI</code>
 <ul>
 <li>Rebuilt a lost life-tracker as <b>one SwiftUI codebase on 3 platforms</b> (iPhone, iPad, Mac) with <b>11 modules</b>, widgets and a Live Activity.</li>
 <li>Shared logic is covered by <b>34 tests</b> in TempoKit, with Supabase sync kept alive by a daily CI ping.</li>
@@ -232,7 +238,7 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <tr>
 <td width="210" valign="top"><img src="assets/proof/linkedin-command-center.jpg" width="200" alt="LinkedIn Command Center" /></td>
 <td valign="top">
-<b>LinkedIn Command Center</b> &nbsp;<code>content OS</code>
+<b>LinkedIn Command Center</b> &nbsp;<code>personal · content OS</code>
 <ul>
 <li>Built a content engine for <b>4 channels</b> that runs research → direction → writing → review as leased, retryable jobs: <b>220 commits</b>, <b>51 migrations</b>.</li>
 <li>Tracks outreach with a <b>7-step</b> follow-up CRM and an auto-generated weekly funnel review.</li>
@@ -241,13 +247,14 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 </td>
 </tr>
 <tr>
-<td width="210" valign="top"><img src="assets/proof/tohraan-signal.jpg" width="200" alt="Tohraan Signal" /></td>
+<td width="210" valign="top"><img src="assets/proof/portfolio-site.jpg" width="200" alt="Portfolio" /></td>
 <td valign="top">
-<b>Tohraan Signal</b> &nbsp;<code>portfolio</code>
+<b>Portfolio</b> &nbsp;<code>personal · three.js</code>
 <ul>
-<li>Designed my portfolio as a film in <b>6 reels</b> with GSAP, Lenis and a three.js shader, with every claim sourced from <b>1</b> data file.</li>
+<li>Turned my GitHub year into a white 3D scroll flight with three.js + GSAP + Lenis: <b>751 contributions</b> stand as bars, and <b>3 case studies</b> pin while their media steps with the scroll.</li>
+<li>Indexed <b>29 projects</b> from 2023 to 2026 with a ⌘K shell of <b>9 commands</b>, and passed a <b>48-frame</b> headless scroll check with <b>0 console errors</b>.</li>
 </ul>
-<sub>Next.js 16 · 🔒 private</sub>
+<sub>vanilla JS, no framework · 🔒 private</sub>
 </td>
 </tr>
 <tr>
