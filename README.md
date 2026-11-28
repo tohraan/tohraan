@@ -153,7 +153,7 @@ The generator and the grid layout are in that repo's <code>tools/</code> folder.
 <b>AI Voice Heist</b> &nbsp;<code>IEEE stall · 25 Nov 2026</code>
 <ul>
 <li>Ran a live LLM social-engineering game for <b>84 players</b> across <b>92 plays</b>, with <b>17</b> snacks won.</li>
-<li>Lifted the win rate from <b>2% to 43%</b> with a mid-event prompt patch.</li>
+<li>Lifted the win rate from <b>2% to 43%</b> with a mid-event difficulty patch.</li>
 </ul>
 <sub>🔒 private</sub>
 </td>
